@@ -1,0 +1,5 @@
+print('Enter what you want to append:')
+a = raw_input()
+f= open("input.txt","w+")
+fl = f.write(a)
+f.close()
